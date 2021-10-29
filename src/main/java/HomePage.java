@@ -7,8 +7,8 @@ import org.openqa.selenium.WebDriver;
 public class HomePage extends pages.BasePage {
 
     pages.SearchBox searchBox ;
-    By cartCountLocator = By.id("twoseven-scripts");
-    By cartContainerLocator = By.id("nav-cart-count-container");
+    By cartCountLocator = By.id("cart-count badge-circle");
+    By cartContainerLocator = By.id("col-md-12 cart-header mb-20");
     By acceptCookiesLocator = By.id("sp-cc-accept");
 
     public HomePage(WebDriver driver) {

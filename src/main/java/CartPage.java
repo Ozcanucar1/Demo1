@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CartPage extends pages.BasePage {
 
-    By productNameLocator = new By.ByCssSelector("a.a-link-normal span.a-size-medium ");
+    By productNameLocator = new By.ByCssSelector("Beli Lastikli Basic Kadife Erkek Bebek Pantolon");
 
     public CartPage(WebDriver driver) {
         super(driver);
